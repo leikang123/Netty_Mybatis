@@ -17,9 +17,11 @@ public class SomeClient {
         NioEventLoopGroup group = new NioEventLoopGroup();
         // 创建启动段
         Bootstrap bootstrap = new Bootstrap();
+        // 线程组链接netty
         bootstrap.group(group)
                 .channel(NioSocketChannel.class)
                 .handler(new ChannelInitializer<SocketChannel>() {
+                    // 初始化方法重写
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
                         ChannelPipeline pipeline = ch.pipeline();
