@@ -4,6 +4,7 @@ package com.abc.rpc.service;
  * @author mac1094
  *
  */
+
 // 业务接口
 public interface SomeService {
     String hello(String name);
