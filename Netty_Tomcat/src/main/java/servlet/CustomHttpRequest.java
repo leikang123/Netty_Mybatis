@@ -15,6 +15,7 @@ import java.util.Map;
  * servlet的规范
  * @author mac1094
  *自定义请求类
+ *
  */
 public class CustomHttpRequest {
 	// 定义请求属性
