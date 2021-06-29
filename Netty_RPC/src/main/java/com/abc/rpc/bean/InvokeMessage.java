@@ -9,6 +9,7 @@ import java.io.Serializable;
  * @author mac1094
  *
  */
+
 @Data
 public class InvokeMessage implements Serializable {
     /**
