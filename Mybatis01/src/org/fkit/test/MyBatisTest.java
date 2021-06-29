@@ -7,8 +7,10 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.fkit.domain.User;
 
-public class MyBatisTest {
 
+// 测试类
+public class MyBatisTest {
+         // 主方法
 	public static void main(String[] args) throws Exception {
 		// 读取mybatis-config.xml文件
 		InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
