@@ -2,6 +2,8 @@ package org.fkit.domain;
 
 import java.io.Serializable;
 
+
+// 用户的属性封装
 public class User implements Serializable{
 	// 用户标识
 	private Integer id;
@@ -48,7 +50,7 @@ public class User implements Serializable{
 	public void setAge(Integer age) {
 		this.age = age;
 	}
-
+     // 输出的结果
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", sex=" + sex + ", age="
