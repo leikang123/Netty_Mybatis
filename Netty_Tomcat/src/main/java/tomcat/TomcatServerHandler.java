@@ -24,6 +24,8 @@ public class TomcatServerHandler extends ChannelInboundHandlerAdapter {
             servlet.doGet(new CustomHttpRequest(request, ctx), new CustomHttpResponse(request, ctx));
         }
     }
+    
+    
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
